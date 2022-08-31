@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #011538;
+    background-image: url(./bluematrixbinary.png);
 }
 
 header {
@@ -76,6 +76,10 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+.benefits:hover {
+    background: #060915;
+    opacity: .8;
+}
 
 .benefits {
     margin-right: 20px;
@@ -86,6 +90,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
 }
 
 .benefit {
@@ -110,8 +115,13 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
+    opacity: .8;
     color: #ffffff;
 }
+.content2:hover {
+background:#060915;
+}
+
 
 .content2 img {
     max-height: 200px;
