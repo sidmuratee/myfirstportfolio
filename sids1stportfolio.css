@@ -8,11 +8,23 @@ body {
     background-image: url(./bluematrixbinary.png);
 }
 
+.navig a:hover {
+font-size: 125%;
+}
+
+nav ul li a{
+    display: block;
+    width: 150px;
+    height: 50px;
+}
+
 header {
     padding: 20px;
+    justify-content: space-between;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #000000;
     color: rgba(127, 221, 255, 0.945);
+    display: flex;
 }
 
 header h1 {
@@ -27,18 +39,27 @@ header h1 .seo {
 header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    /* float: right; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    width: 50%;
+    
+    
 }
 
 header nav ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 header nav ul li {
-    display: inline-block;
+    
     margin-left: 25px;
+   
+
+    font-display: optional;
 }
 
 a {
