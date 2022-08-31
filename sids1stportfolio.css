@@ -12,7 +12,7 @@ header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #000000;
-    color: #7d838e;
+    color: #98983f;
 }
 
 header h1 {
@@ -114,12 +114,12 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    opacity: .8;
+    background-color: #000000;
     color: #ffffff;
 }
 .content2:hover {
 background:#060915;
+opacity: .8;
 }
 
 
@@ -131,7 +131,9 @@ background:#060915;
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+.float-right:hover {
+    transform: scale(1.4);
+}
 .footer {
     padding: 30px;
     clear: both;
